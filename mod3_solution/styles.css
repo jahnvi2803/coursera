@@ -1,0 +1,98 @@
+body{
+	background-color:#D2691E;
+	
+}
+.navbar-brand{
+	padding: 25px;
+	font-family: Times New Roman, serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	font-size: 30px;
+	margin-bottom: 0;
+	margin-top: 0;
+	line-height: .75;
+
+	
+}
+.navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=40E0D0');
+}
+
+#header-nav{
+	color:#40E0D0;
+	background-color:white;
+	
+}
+#nav-list{
+	 margin-top: 10px;
+	 text-align: center;
+	 background-color: #FFDEAD;
+
+}
+#nav-list a {
+  color: black;
+  
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#heading{
+	margin-top: 10px;
+	font-family: Times New Roman, serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	color: white;
+
+}
+#d1{
+	margin-bottom: 10px;
+	background-color: white;
+}
+p{
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	color: #D2691E; 
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 980px) {
+	.collapsed{
+		display: none;
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 775px) and (max-width: 980px) {
+  .collapsed{
+		display: none;
+	}
+ 
+  }
+  
+}
+
+/********** Small devices only **********/
+@media (max-width: 775px) {
+	.navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 
+    font-size: 5vw; 
+	#collapsable-nav a { 
+    font-size: 1.2em;
+  }
+}
+
+
+
